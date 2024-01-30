@@ -1,2 +1,29 @@
+Q1. In which of these situations are interfaces better than abstract classes?
+[ ] When you need to define an object type's characteristics, use an interface. When you need to define an object type's capabilities, use an abstract class.
+[ ] Interfaces are a legacy of older versions of C#, and are interchangeable with the newer abstract class feature.
+[X] When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.
+[ ] You should use both an interface and an abstract class when defining any complex object.
 
-teste diogo bobao
+----- Tradução -----
+
+## Q1. Em quais dessas situações as interfaces são melhores que as classes abstratas? ##
+[ ] Quando precisar definir as características de um tipo de objeto, use uma interface. Quando você precisar definir os recursos de um tipo de objeto, use uma classe abstrata.
+[ ] As interfaces são um legado de versões mais antigas do C# e são intercambiáveis ​​com o recurso de classe abstrata mais recente.
+[X] Quando você precisar de uma lista de recursos e dados independentes de classe, use uma interface. Quando você precisar de um determinado tipo de objeto para compartilhar características, use uma classe abstrata.
+[ ] Você deve usar uma interface e uma classe abstrata ao definir qualquer objeto complexo.
+
+EXPLICAÇÃO
+
+A interface é melhor do que classes abstratas quando você precisar de uma lista de recursos e dados independentes de classe, porque a interface apenas cria as assinaturas de propriedades e metodos, ou seja, ele define quais serão as principais caracteristicas da classe, ao passo que sua 
+implementação seja realizada da melhor maneira possivel na classe herdada. Além disso, caso outra herde a mesma interface, obrigatoriamente terá as mesmas assinaturas, porém com impletamentações diferentes.
+Agora caso queira que as classes herdadas possuam algum tipo de caracteristica em comum, pode-ser usar as classes abstratas que possibilitam adicionar valores as propriedades, corpo as funções e alem de construtores e destrutores. Além disso, é possível deixas as assinaturas dessa classe serem sobrescritas pelas 
+classes herdadas
+
+Semelhanças
+- Criam assinaturas de propriedades/funçoes
+- Nao podem ser instanciadas
+
+Diferenças
+- A interface obriga as assinaturas as serem implementadas, a classe abstrata nao
+- A classe abstrata possibilita adicionar valores padrões as assinaturas, interface nao
+- A classe abstrata pode ter propriedades que serão sobrescritas
