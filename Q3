@@ -1,0 +1,18 @@
+3. Which choice best defines C#'s asynchronous programming model?
+
+[ ]reactive
+[ ]inherited callback
+[x]task-based
+[ ]callback-based
+
+
+3. Qual opção melhor define o modelo de programação assíncrona do C#?
+
+[ ]    reativo
+[ ]    retorno de chamada herdado
+[x]    baseado em tarefas
+[ ]    baseado em retorno de chamada
+
+Explicação
+
+O c# é baseado em tasks, ou seja, possibilita o programa principal continuar a sua execuçao enquanto em outra linha de processamento seja executada outra tarefa sem travar a principal. As outras opções sao formatos de processamentos mais antigos
