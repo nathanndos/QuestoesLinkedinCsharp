@@ -1,0 +1,28 @@
+Q2. Which statement is true of delegates?
+[ ] Delegates are not supported in the current version of C#
+[ ] They cannot be used as callbacks.
+[ ] Only variables can be passed to delegates as parameters.
+[X] They can be chained together. 
+
+######## TRADUÇÃO ##########
+
+Q2. Qual afirmação é verdadeira para os delegados?
+[ ] Delegados não são suportados na versão atual do C#
+[ ] Eles não podem ser usados ​​como retornos de chamada.
+[ ] Somente variáveis ​​podem ser passadas para delegados como parâmetros.
+[X] Eles podem ser encadeados.
+
+Explicação
+
+Delegates nada mais é que do que assinaturas de funções, ou seja, ponteiros. Eles podem ser encadeados, o que possibilita maior flexiblidade na utilizaçao do código. 
+É possível notar isso, por exemplo, quando adicionamos um novo evento ao botao de click:
+
+Exemplo:
+    FindViewById<Button>(Resource.Id.btnPagamentosRecebidos).Click += btnRecebidos_Click;
+    FindViewById<Button>(Resource.Id.btnPagamentosRecebidos).Click += btnNovoClick;
+
+A partir de agora, o evento de click nao irá apenas executar a primeira funçao, mas a segunda também, ou seja, é útil em situações onde você deseja que vários métodos respondam a um único evento.
+
+
+
+
