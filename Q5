@@ -1,0 +1,22 @@
+Q5. What is the difference between the ref and out keywords?
+
+[ ] Variables passed to specify that the parameter is an output parameter, while ref specifies that a variable may be passed to a function without being initialized.
+[ ] Variables passed to ref can be passed to a function without being initialized, while out specifies that the value is a reference value that can be changed inside the calling method.
+[X] Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be changed inside the calling method.
+[ ] Variables passed to ref specify that the parameter is an output parameter, while out specifies that a variable may be passed to a function without being initialized.
+
+
+######## Traduçao ########
+
+Q5. Qual é a diferença entre as palavras-chave ref e out?
+
+[ ] Variáveis ​​passadas para especificar que o parâmetro é um parâmetro de saída, enquanto ref especifica que uma variável pode ser passada para uma função sem ser inicializada.
+[ ] Variáveis ​​passadas para ref podem ser passadas para uma função sem serem inicializadas, enquanto out especifica que o valor é um valor de referência que pode ser alterado dentro do método de chamada.
+[X] Variáveis ​​passadas para out podem ser passadas para uma função sem serem inicializadas, enquanto ref especifica que o valor é um valor de referência que pode ser alterado dentro do método de chamada.
+[ ] Variáveis ​​passadas para ref especificam que o parâmetro é um parâmetro de saída, enquanto out especifica que uma variável pode ser passada para uma função sem ser inicializada.
+
+
+Explicação
+Ao utilizar a palavra reservada OUT na chamada de uma funçao, significa que aquela variavel será criada e receberá um valor dentro da função, ao passo que nao é necessario criar ela antes de chamar a funcao
+e depois passar como um parametro comum. Além disso, ao utiliar o OUT é possivel ter vários retornos de uma função, já que ao declarar o retorno de uma função só é possível ter um.
+O REF refere-se ao endereço de memoria de uma variavel e nao ao valor dela em si, ou seja, passagem por valor ou passagem de parametro por referencia.
